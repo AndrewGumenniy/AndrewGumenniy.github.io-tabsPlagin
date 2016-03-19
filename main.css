@@ -1,0 +1,48 @@
+.content {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.tab-title {
+  border: 1px dashed #eee;
+  float: left;
+  padding: 5px 15px;
+  cursor: pointer;
+}
+
+.tab-titles {
+  overflow: hidden;
+}
+
+.tabs {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px dashed #eee;
+}
+
+.hidden {
+  display: none;
+}
+
+.additional-tabs-container {
+  border: 1px solid #eee;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+.page-titles {
+  text-align: right;
+}
+
+.page-titles > div {
+  margin-top: 10px;
+  text-align: right;
+  display: inline-block;
+  padding: 5px;
+  background-color: #eee;
+  cursor: pointer;
+}
+
+.active {
+  background-color: #0d9ba5 !important;
+}
